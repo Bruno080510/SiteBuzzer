@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Buzzer - Verificação de Segurança de URL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo a **Buzzer**! Este é um projeto pessoal que visa fornecer uma ferramenta simples e útil para verificar a segurança de URLs da web. A finalidade principal deste site é ajudar os usuários a determinar se um determinado site ou URL é seguro para acessar, protegendo-os contra possíveis ameaças online.
 
-## Available Scripts
+## Principais Recursos:
 
-In the project directory, you can run:
+- **Verificação de Segurança em Tempo Real:** Nosso site utiliza a API do VirusTotal para verificar URLs em tempo real e fornecer informações detalhadas sobre a segurança de um site.
 
-### `npm start`
+- **Interface Amigável:** Desenvolvemos uma interface de usuário intuitiva e fácil de usar para que qualquer pessoa possa verificar URLs com facilidade.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Resultados Detalhados:** Apresentamos resultados detalhados sobre cada URL verificada, incluindo informações sobre possíveis ameaças, relatórios de antivírus e muito mais.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Proteção Online:** Capacitamos nossos usuários com as informações necessárias para tomar decisões informadas sobre a segurança de sites, protegendo-os contra malware, phishing e outras ameaças online.
 
-### `npm test`
+## Como Funciona:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Cole a URL que deseja verificar na caixa de pesquisa.
+2. Clique em "Verificar".
+3. Nosso site consultará a API do VirusTotal e retornará os resultados de segurança em segundos.
 
-### `npm run build`
+## Disponivel também no formato de extensão
+A extensão Buzzer é um meio mais simples de tornar sua navegação mais segura e melhor.
+Disponivel na **Chrome Web Store**: https://chrome.google.com/webstore/detail/buzzer/gnhopbckidbokdfnjplchlnjdnaihkkj?hl=pt-BR
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuições e Desenvolvimento:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se você deseja contribuir para o desenvolvimento deste projeto ou sugerir aprimoramentos, sinta-se à vontade para abrir problemas e solicitações de pull no nosso repositório no GitHub. Valorizamos seu feedback e contribuições para tornar este site ainda melhor!
