@@ -15,7 +15,9 @@ function Navbar(){
                     <h1 className=" pe-6">Serviços</h1>
                 </Link>
                 <h1 className=" pe-6">Sobre</h1>
-                <h1>Blog</h1>
+                <Link to='/blog'>
+                    <h1>Blog</h1>
+                </Link>
             </div>
         </div>
     )
