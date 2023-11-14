@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Post() {
-
+  // Use useEffect para rolar a página para o topo quando o componente for montado
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className='pt-28 flex-col px-40'>
+    <div className='pt-28 flex-col  bg-[#1B0938] text-white px-40'>
                     <div>
                         <h1 className=' text-5xl font-bold pb-5'>O Que São Malwares?</h1>
                         <p className=' text-2xl pb-5'>Malwares, uma contração de "software malicioso," referem-se a programas ou códigos de computador desenvolvidos com a intenção de causar danos, roubar informações confidenciais ou obter acesso não autorizado a sistemas. 
@@ -39,6 +42,12 @@ function Post() {
                                 </li>
                             </ol>
                         </div>
+                        <div>
+                        <h1 className=' text-5xl font-bold pb-5'>Impactos e Prevenção contra Malwares:</h1>
+                        <p className=' text-2xl pb-8'>Além de compreender as diversas formas de malwares, é crucial estar ciente dos impactos significativos que podem resultar de infecções. Estes incluem desde a perda irreparável de dados até o comprometimento da privacidade e segurança financeira dos usuários. Empresas, por sua vez, enfrentam riscos operacionais, perda de reputação e interrupção dos negócios devido a ataques bem-sucedidos de malwares.</p>
+                        <p className=' text-2xl pb-8'>Para mitigar esses impactos, é fundamental adotar práticas preventivas robustas. Isso inclui a instalação regular de atualizações de segurança, o uso de programas antivírus confiáveis e firewalls eficientes. A conscientização dos usuários sobre as táticas comuns de phishing e a importância de não clicar em links suspeitos ou baixar anexos de fontes desconhecidas é igualmente essencial. Além disso, a realização de backups regulares de dados críticos pode ser uma medida vital para minimizar os danos causados por ataques de ransomware.</p>
+                        <p className=' text-2xl pb-8'>Em última análise, a colaboração entre empresas, organizações e indivíduos é essencial para criar uma defesa eficaz contra malwares. A partilha de informações sobre ameaças, a implementação de políticas de segurança rigorosas e a permanente atualização das práticas de cibersegurança são elementos cruciais na construção de uma rede mais resiliente contra as crescentes e sofisticadas ameaças cibernéticas.</p>
+                    </div>
 
     </div>
   );

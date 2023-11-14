@@ -10,11 +10,7 @@ function Navbar(){
                     <h1 className=' font-bold text-3xl p-2'>Buzzer</h1>
                 </div>
             </Link>
-            <div className=" flex text-xl font-bold items-center">
-                <Link to='/servicos'>
-                    <h1 className=" pe-6">Serviços</h1>
-                </Link>
-                <h1 className=" pe-6">Sobre</h1>
+            <div className=" flex text-xl cursor-pointer text-center pe-14 font-bold items-center">
                 <Link to='/blog'>
                     <h1>Blog</h1>
                 </Link>
