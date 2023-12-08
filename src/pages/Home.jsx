@@ -29,7 +29,7 @@ function Home(){
             </div>
             <div className='flex pt-20 px-24 text-white font-bold items-center justify-center'>
                 <div className='ps-24 flex-col items-center'>
-                    <h1 className=' pt-3 text-5xl'>Dísponivel na Chrome Web Store</h1>
+                    <h1 className=' pt-3 text-5xl'>DIsponÍvel na Chrome Web Store</h1>
                     <div className='pt-8'>
                         <a href="https://chrome.google.com/webstore/detail/buzzer/gnhopbckidbokdfnjplchlnjdnaihkkj?hl=pt-BR">
                             <button className='bg-[#F1B711] w-32 rounded-xl text-2xl text-center h-14'>Acessar</button>
