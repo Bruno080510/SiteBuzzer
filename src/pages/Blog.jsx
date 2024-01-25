@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Blog() {
   return (
-    <div className="py-28 flex items-center justify-center  bg-[#1B0938] flex-col">
+    <div className="py-28 flex items-center justify-center  bg-[#5927aa] flex-col">
       <Link>
       <a className="flex cursor-pointer text-white font-normal flex-col w-[750px] h-[250px] items-center  border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl   bg-amber-500">
           <img
@@ -24,16 +24,20 @@ function Blog() {
             text="Os malwares representam uma ameaça persistente no mundo digital, podendo comprometer a segurança de computadores e dados pessoais. Neste post, vamos explorar o universo dos malwares, compreendendo o que são, como agem e, o mais importante, como podemos proteger nossos dispositivos contra essas ameaças."
           />
         </Link>
+        <Link to="/post1">
         <Card
           title="Vazamentos de Dados: Lições Aprendidas dos Casos Mais Impactantes"
           text="Vazamentos de dados ameaçam a segurança digital, expondo informações confidenciais e afetando usuários globalmente. Exploraremos casos notórios, analisaremos causas e forneceremos medidas práticas para proteger informações pessoais."
           urlImage="https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-malware-para-roubo-de-dados_114360-7387.jpg?w=740&t=st=1699885211~exp=1699885811~hmac=00d33545f78423f310e8c61d442a66a09145dc79b2634be41773d6fa5a36f551"
         />
-        <Card
-          title="Firewall e Configurações de Privacidade"
-          text="Ative o firewall do seu dispositivo e ajuste as configurações de privacidade em redes sociais e outros serviços online. Limite a quantidade de informações pessoais compartilhadas publicamente."
-          urlImage="https://img.freepik.com/vetores-gratis/conceito-de-seguranca-na-internet_1284-16813.jpg?t=st=1699924633~exp=1699925233~hmac=2e22837169b7d73e89bb3e4681620b64b6427a44a37179f4ded0a19ef167f51e"
-        />
+        </Link>
+        <Link to="/post2">
+          <Card
+            title="Firewall e Configurações de Privacidade"
+            text="Ative o firewall do seu dispositivo e ajuste as configurações de privacidade em redes sociais e outros serviços online. Limite a quantidade de informações pessoais compartilhadas publicamente."
+            urlImage="https://img.freepik.com/vetores-gratis/conceito-de-seguranca-na-internet_1284-16813.jpg?t=st=1699924633~exp=1699925233~hmac=2e22837169b7d73e89bb3e4681620b64b6427a44a37179f4ded0a19ef167f51e"
+          />
+        </Link>
       </div>
     </div>
   );

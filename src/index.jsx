@@ -5,8 +5,9 @@ import App from './App';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Servicos from './pages/Servicos';
-import Post from './pages/Post';
-
+import Post from './pages/posts/Post';
+import Post2 from './pages/posts/Post2';
+import Post3 from './pages/posts/Post3';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
       {
         path: "/post",
         element: <Post/>
+      },
+      {
+        path: "/post1",
+        element: <Post2/>
+      },
+      {
+        path: "/post2",
+        element: <Post3/>
       },
     ]
   }

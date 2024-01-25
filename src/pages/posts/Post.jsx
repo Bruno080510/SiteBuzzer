@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Post() {
   // Use useEffect para rolar a página para o topo quando o componente for montado
@@ -6,7 +7,10 @@ function Post() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='pt-28 flex-col  bg-[#1B0938] text-white px-40'>
+    <div className='pt-28 flex-col  bg-[#5927aa] text-white px-40'>
+      <Link to="/">
+        <button>Voltar</button>
+      </Link>
                     <div>
                         <h1 className=' text-5xl font-bold pb-5'>O Que São Malwares?</h1>
                         <p className=' text-2xl pb-5'>Malwares, uma contração de "software malicioso," referem-se a programas ou códigos de computador desenvolvidos com a intenção de causar danos, roubar informações confidenciais ou obter acesso não autorizado a sistemas. 
